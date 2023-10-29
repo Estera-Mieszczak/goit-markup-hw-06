@@ -754,7 +754,7 @@ ul {
 .button-subscribe {
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
   min-width: 165px;
   height: 40px;
   background: var(--Primary-Brand);
@@ -796,4 +796,7 @@ ul {
 .newsletter-subscribe-box {
   display: flex;
   margin-top: 16px;
+}
+.newsletter-subscribe-icon {
+  margin-left: 16px;
 }
