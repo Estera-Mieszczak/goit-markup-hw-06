@@ -627,6 +627,9 @@ ul {
 .close-icon:focus {
   fill: currentColor;
 }
+.newsletter-subscribe-form {
+  display: flex;
+}
 .modal-window-form-title {
   font-weight: 500;
   line-height: 24px;
@@ -770,6 +773,9 @@ ul {
 .button-subscribe:focus,
 .button-subscribe:active {
   background-color: var(--Pressed-state);
+}
+.newsletter-subscribe-label {
+  gap: 24px;
 }
 .newsletter-subscribe-field {
   width: 264px;
