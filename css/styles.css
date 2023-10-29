@@ -755,6 +755,8 @@ ul {
   display: flex;
   align-items: center;
   gap: 16px;
+  min-width: 165px;
+  height: 40px;
   background: var(--Primary-Brand);
   color: var(--White-background);
   font-family: inherit;
@@ -774,12 +776,11 @@ ul {
 .button-subscribe:active {
   background-color: var(--Pressed-state);
 }
-.newsletter-subscribe-label {
-  gap: 24px;
-}
 .newsletter-subscribe-field {
   width: 264px;
   height: 40px;
+  gap: 24px;
+  line-height: 1.5;
   background-color: transparent;
   border: 1px solid var(--White-background);
   border-radius: 4px;
