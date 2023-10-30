@@ -802,7 +802,7 @@ ul {
 }
 .newsletter-subscribe-field[placeholder] {
   font-size: 12px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.48px;
   color: #ffffff;
 }
