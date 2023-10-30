@@ -544,9 +544,6 @@
     </footer>
     <div class="modal-window is-hidden" data-modal>
       <div class="modal-body">
-        <p class="modal-window-form-title">
-          Leave your contacts and we will call you back
-        </p>
         <button class="modal-close" data-modal-close type="button">
           <svg
             class="close-icon"
@@ -557,6 +554,9 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-window-form-title">
+          Leave your contacts and we will call you back
+        </p>
         <form name="contact-form">
           <div class="contact-form-fields-list">
             <label class="contact-form-fields-title" for="user-name"
@@ -632,21 +632,20 @@
             <input
               class="privacypolicy-checkbox visually-hidden"
               type="checkbox"
-              value="true"
               name="user-privacy"
               id="user-privacy"
             />
             <label class="privacypolicy-label" for="user-privacy">
-              <span class="checkbox-icon">
+              <span class="checkbox-icon-span">
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
-                I accept the terms and conditions of the<a
-                  href=""
-                  class="privacy-policy-link"
-                  >Privacy Policy</a
-                >
               </span>
+              I accept the terms and conditions of the<a
+                href=""
+                class="privacy-policy-link"
+                >Privacy Policy</a
+              >
             </label>
           </div>
           <button class="button" type="submit">Send</button>
